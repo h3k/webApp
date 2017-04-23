@@ -19,5 +19,5 @@ Django-crispy-forms==1.6.1
 
 Django-registration==2.2
 
-If you would like to install the latest version of the listed applications simply remove the listed version.
+If you would like to install the latest version of the listed external applications simply remove the listed version.
 
