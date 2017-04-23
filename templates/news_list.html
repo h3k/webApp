@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="container">
+<div class="row">
+
+{% for new in news %}
+<div class="col-md-6">
+    <div class="caption">
+        <h3>{{ new.title }}</h3>
+        <p>{{ new.body|truncatechars:120 }}</p>
+        <p><a href="{% url 'detail' new.id %}" class="btn btn-primary" role="button">View</a></p>
+      </div>
+</div>
+
+{% endfor %}
+
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,5 @@
+Django version==1.10.3
+
+Django-crispy-forms==1.6.1
+
+Django-registration==2.2
